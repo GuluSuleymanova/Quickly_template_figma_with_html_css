@@ -1,0 +1,62 @@
+.hero_section{
+overflow: hidden;
+background: $bg-color1;
+padding: 2rem 0;
+
+
+
+
+.info-part{
+p{
+font-size: $font-size2;
+color: $color4;
+font-weight: bold;
+}
+h1{
+font-size: 4.5vw;
+color: $color1;
+}
+
+.two{
+font-size: 18px;
+color: $color1;
+font-weight: 300;
+margin: 1.5rem 0;
+}
+}
+
+.input_group{
+
+
+.form-control{
+height: 58px;
+border-radius: 8px 0 0 8px ;
+padding-left: 1.5rem;
+
+&:focus{
+@include button-setting;
+
+}
+
+&::placeholder{
+color: $color7;
+font-family: 'Plus Jakarta Sans', sans-serif !important;
+font-size: 18px;
+
+
+}
+}
+
+.btn{
+background: $bg-color2;
+width: 140px;
+border-radius:   0 8px 8px 0 ;
+font-size: 18px;
+color: $color6;
+
+
+}
+
+}
+}
+

@@ -1,0 +1,56 @@
+.features-section{
+overflow: hidden;
+position: relative;
+background: $bg-color3;
+padding: 3rem 0;
+
+
+
+.desc-content{
+color: $color6;
+h3{
+font-size: 2rem;
+font-weight: bold;
+}
+
+p{
+font-size: 18px;
+font-weight: 400;
+margin: 15px 0;
+}
+
+.list-content{
+display: flex;
+gap: 1.2rem;
+
+.icon-box{
+margin: 10px 0;
+
+span{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 44px;
+height: 44px;
+border-radius: 12px;
+background: $bg-color5;
+}
+}
+.text-box{
+margin: 10px 0;
+h4{
+font-size: 24px;
+font-weight: bold;
+}
+p{
+font-size: 18px;
+font-weight: 400;
+}
+}
+}
+}
+
+
+
+
+}

@@ -1,0 +1,21 @@
+.social_logo_section{
+padding: 3rem 0;
+overflow: hidden;
+
+
+.head-text{
+color: $color2;
+font-size: $font-size1;
+}
+.logo-image{
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+img{
+max-width: 100%;
+}
+}
+}

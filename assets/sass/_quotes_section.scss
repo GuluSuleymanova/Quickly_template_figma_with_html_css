@@ -1,0 +1,42 @@
+.quotes-section{
+overflow: hidden;
+background-image: url('../images/quotes-image.jfif');
+height: 500px;
+min-height: 100%;
+background-size: cover;
+background-position: 100% center;
+background-repeat: no-repeat;
+max-width: 100%;
+
+.quote-desc{
+background: $bg-color3;
+color: $color6;
+border-radius: 12px;
+padding: 1.5rem;
+
+.icon-head{
+font-size: 2rem;
+font-weight: bold;
+margin-bottom: 5rem;
+
+h3{
+font-weight: bold;
+font-size: 2rem;
+
+}
+}
+
+.title{
+h5{
+font-size: 18px;
+font-weight: bold;
+}
+p{
+font-size: 1rem;
+font-weight: 300;
+}
+}
+}
+}
+
+

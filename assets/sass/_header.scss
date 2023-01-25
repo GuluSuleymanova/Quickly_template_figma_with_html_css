@@ -1,0 +1,50 @@
+header{
+background:$bg-color1;
+overflow: hidden;
+
+
+.container{
+max-width: 95%;
+margin: auto;
+
+.navbar-brand{
+font-size: $font-size1;
+font-weight: $font-weight1;
+color: $color1;
+}
+
+.navbar-toggler{
+@include button-setting;
+color: $color1;
+}
+
+.nav-item{
+.nav-link{
+color: $color1;
+padding:1rem;
+}
+}
+
+.sign,.login{
+background: $bg-color2;
+font-size: $font-size3;
+@include button-setting;
+border-radius: 8px;
+padding: 0.5rem 1rem;
+
+a{
+color: $color2;
+}
+}
+.login{
+background: none;
+
+a{
+color: $color1;
+}
+}
+
+
+}
+
+}

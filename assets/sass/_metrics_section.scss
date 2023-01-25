@@ -1,0 +1,52 @@
+.metrics-section{
+overflow: hidden;
+padding: 2rem 0;
+
+
+.header-part{
+color: $color6;
+padding-bottom: 1.5rem;
+h3{
+font-size: 2rem;
+font-weight: bold;
+margin-bottom: 1rem;
+}
+
+p{
+font-size: $font-size2;
+font-weight: 400;
+
+}
+}
+
+.metric-columns{
+background-color: $bg-color1;
+border-radius: 24px;
+padding: 1.5rem;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+max-height: 100%;
+height:330px ;
+
+.number-part{
+font-size: 4.5vw;
+font-weight: bold;
+color:$color4;
+}
+.description-part{
+color: $color4;
+h5{
+font-size: 18px;
+font-weight: bold;
+}
+p{
+font-size: $font-size2;
+}
+}
+}
+}
+
+
+
+

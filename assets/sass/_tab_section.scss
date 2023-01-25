@@ -1,0 +1,55 @@
+.tab-section{
+position: relative;
+padding: 2rem 0;
+overflow: hidden;
+.heading{
+color: $color6;
+h2{
+font-size: 40px;
+font-weight: bold;
+margin-bottom: 10px;
+}
+p{
+font-size: 16px;
+font-weight: 300;
+margin-bottom: 30px;
+}
+}
+
+.menu-list{
+border-bottom: 1px solid $color7;
+ul{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+padding-left: 0;
+flex-wrap: wrap;
+
+li{
+a{
+color: $color2;
+font-size: 18px;
+font-weight: 400;
+
+&:hover{
+color: $color6;
+font-weight: bold;
+border-bottom: 4px solid $color2;
+padding-bottom: 17px;
+transition: all 1s ease;
+
+}
+}
+
+.active{
+color: $color6;
+font-weight: bold;
+border-bottom: 4px solid $color2;
+padding-bottom: 17px;
+}
+
+}
+}
+}
+}

@@ -1,0 +1,175 @@
+// @media only screen and (min-width:1400px){
+
+// };
+
+// @media only screen and (min-width:1200px) and (max-width:1399.98px){
+
+// };
+// ****************
+
+@media only screen and (min-width:992px) and (max-width:1199.98px){
+.cta-section{
+.btn-part{
+font-size: 16px !important;
+padding: 16px 30px !important;
+}
+}
+};
+// ****************
+
+@media only screen and (min-width:768px) and (max-width:1199.98px){
+.cta-section{
+.list-box{
+display: flex;
+gap: 30px !important;
+
+p{
+font-size: 16px !important;
+}
+}
+}
+};
+
+// ****************
+
+@media only  screen and (min-width: 768px) and (max-width: 991.98px) {
+.cta-section{
+.list-box{
+display: flex;
+gap: 25px !important;
+
+p{
+font-size: 15px !important;
+}
+}
+}
+
+// ****************
+.features-section{
+.desc-content{
+h3{
+font-size: 1.6rem !important;
+}
+p{
+font-size: 15px !important;
+}
+
+.text-box{
+h4{
+font-size: 20px !important;
+font-weight: bold;
+}
+p{
+font-size: 15px !important;
+font-weight: 400;
+}
+} 
+}
+}
+
+
+};
+
+// ****************
+
+@media only  screen and (min-width: 576px) and (max-width: 767.98px) {
+.header-section{
+.content{
+h2{
+font-size: 30px !important;
+}
+p{
+font-size: 16px !important;
+}
+}
+}
+
+};
+
+
+// @media only  screen and (max-width: 1199.98px) {
+
+// };
+
+// ****************
+@media only  screen and (max-width: 991.98px) {
+.metrics-section{
+
+.metric-columns{
+text-align: center;
+height: 230px !important;
+
+.description-part{
+h5{
+font-size: 14px !important;
+}
+p{
+font-size: 13px!important;
+}
+}
+
+}
+};
+
+
+.quotes-section{
+.icon-head{
+h3{
+font-size: 1.5rem !important;
+}
+}  
+};
+
+
+
+};
+
+@media only  screen and (max-width: 767.98px) {
+.metrics-section{
+.metric-columns{
+text-align: center;
+height: 210px !important;
+
+.description-part{
+h5{
+font-size: 1.5rem !important;
+}
+p{
+font-size: 1.1rem !important;
+}
+}
+
+.number-part{
+font-size: 3rem !important;
+}
+}
+};
+
+.hero_section{
+.info-part{
+.two{
+font-size: 1rem !important;
+}
+}
+}
+
+};
+
+
+
+// @media only  screen and (max-width: 575.98px) {
+
+// };
+
+// ****************
+
+@media only  screen and (max-width: 487.98px) {
+
+.cta-section{
+.list-box{
+display: block !important;
+}
+}
+
+
+};

@@ -1,0 +1,28 @@
+@import '_variables';
+@import '_mixin';
+@import '_media_query';
+@import '_header';
+@import '_sign_section';
+@import '_social_section';
+@import '_hero_section';
+@import '_features_section';
+@import '_metrics_section';
+@import '_quotes_section';
+@import '_cta_section';
+@import '_images_section';
+@import '_page-header_section';
+@import '_pricing_section';
+@import '_tab_section';
+@import '_team_section';
+@import '_footer';
+
+
+
+
+*{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-decoration: none !important;
+    list-style-type:none !important ;
+}
+
+
