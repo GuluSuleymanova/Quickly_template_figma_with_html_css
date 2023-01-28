@@ -1,65 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
-<link rel="stylesheet" href="assets/sass/style.css">
-<link href="/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/sass/style.css" />
+    <link
+      href="/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section class="sign-section">
+      <div class="decor-images d-none d-lg-block">
+        <img
+          class="img-top"
+          src="assets/images/Decoration-sign-top-removebg-preview.png"
+          alt=""
+        />
+        <img
+          class="img-bottom"
+          src="assets/images/Decoration-sign-bottom-removebg-preview.png"
+          alt=""
+        />
+      </div>
+      <div class="container h-100">
+        <div class="row h-100 d-flex align-items-center justify-content-center">
+          <div class="col-lg-5 col-md-7 col-sm-12 col-xs-12 col-12">
+            <div class="form-part">
+              <div class="form-head">
+                <h3>Get started with Quickly.</h3>
+              </div>
+              <form>
+                <div class="form-input">
+                  <label for="txt">Your name</label><br />
+                  <input
+                    type="text"
+                    id="txt"
+                    placeholder="Enter your name"
+                    autocomplete="off"
+                    required
+                    name="txt"
+                  />
+                </div>
+                <div class="form-input">
+                  <label for="email">Your email</label><br />
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder="Your@email.com"
+                    autocomplete="off"
+                    required
+                    name="email"
+                  />
+                </div>
+                <div class="form-input">
+                  <label for="psw">Password</label><br />
+                  <input
+                    type="password"
+                    placeholder="Enter password"
+                    autocomplete="off"
+                    required
+                    id="psw"
+                    name="psw"
+                  />
+                </div>
+                <div class="form-checkbox">
+                  <label>
+                    <input type="checkbox" name="remember" required /> I agree
+                    to the terms and conditions
+                  </label>
+                </div>
+                <div class="submit-form1">
+                  <button
+                    class="btn btn-lg w-100"
+                    type="submit"
+                    value="Send"
+                    name="send"
+                  >
+                    Create your free account
+                  </button>
+                </div>
+              </form>
+              <div class="links">
+                <span>Already have an account?</span>
+                <a href="#" target="_blank">Signin</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-</head>
-<body>
-
-<section class="sign-section">
-<div class="decor-images d-none d-lg-block">
-<img class='img-top' src="assets/images/Decoration-sign-top-removebg-preview.png" alt="">
-<img class='img-bottom' src="assets/images/Decoration-sign-bottom-removebg-preview.png" alt="">
-</div>
-<div class="container h-100">
-<div class="row h-100 d-flex align-items-center justify-content-center">
-<div class="col-lg-5 col-md-7 col-sm-12 col-xs-12 col-12">
-<div class="form-part">
-<div class="form-head">
-<h3>Get started with Quickly.</h3>
-</div>
-<form>
-<div class="form-input">
-<label for="txt">Your name</label><br>
-<input type="text" id="txt" placeholder="Enter your name" autocomplete="off" required name="txt">
-</div>
-<div class="form-input">
-<label for="email">Your email</label><br>
-<input type="email" id="email" placeholder="Your@email.com" autocomplete="off" required name="email">
-</div>
-<div class="form-input">
-<label for="psw">Password</label><br>
-<input type="password" placeholder="Enter password" autocomplete="off" required id="psw" name="psw">
-</div>
-<div class="form-checkbox">
-<label>
-<input type="checkbox" name="remember" required> I agree to the terms and conditions
-</label>
-</div>
-<div class="submit-form1">
-<button class="btn btn-lg w-100" type="submit" value="Send" name="send">
-Create your free account
-</button>
-</div>
-</form>
-<div class="links">
-<span>Already have an account?</span>
-<a href="#" target="_blank">Signin</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-
-
-
-<script src="/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-
-</body>
+    <script
+      src="/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
